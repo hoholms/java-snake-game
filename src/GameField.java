@@ -82,7 +82,7 @@ public class GameField extends JPanel implements ActionListener {
         Font scoreFont = new Font("Calibri", Font.BOLD, 24);
         g.setColor(Color.BLACK);
         g.setFont(scoreFont);
-        g.drawString("Score: " + score, 700, 24);
+        g.drawString("Score: " + score, 650, 24);
         if (inGame) {
             g.drawImage(apple, appleX, appleY, this);
             for (int i = 0; i < dots; ++i) {
